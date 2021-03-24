@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">TugasMinggu3_Layout</string>
+    <string name="title_activity_linear">LinearActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="to">To</string>
+    <string name="subject">Subject</string>
+    <string name="message">Message</string>
+    <string name="send">Send</string>
+    <string name="reminder">Reminder Name</string>
+    <string name="done">Done</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="tombol">Tombol</string>
+    <string name="merah">#890000</string>
+    <string name="username">Username :</string>
+    <string name="pass">Password :</string>
+    <string name="submit">Submit</string>
+    <string name="todo">TODO</string>
+
+    <string-array name="dates">
+        <item>Wed, June 27, 2012 </item>
+        <item>Thur, March 24, 2021 </item>
+    </string-array>
+
+    <string-array name="times">
+        <item>8:00am</item>
+        <item>7:00pm</item>
+    </string-array>
+</resources>
