@@ -24,6 +24,7 @@
     <string name="pass">Password :</string>
     <string name="submit">Submit</string>
     <string name="todo">TODO</string>
+    <string name="nana">nana</string>
 
     <string-array name="dates">
         <item>Wed, June 27, 2012 </item>
