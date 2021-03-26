@@ -31,13 +31,13 @@
         android:entries="@array/times"
         android:layout_alignParentEnd="true"/>
 
-    <TextView
-        android:id="@+id/text_date_display"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/dates"
-        android:text="@string/nana"
-        android:layout_alignParentStart="true"/>
+<!--    <TextView-->
+<!--        android:id="@+id/text_date_display"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/dates"-->
+<!--        android:text="@string/nana"-->
+<!--        android:layout_alignParentStart="true"/>-->
 
 
     <Button

@@ -22,17 +22,11 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-//    EditText Pada, Subject, Pesan;
-//    Button Submit;
-
-//    TextView dateTimeDisplay;
-//    Calendar calendar;
-//    String date;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-//        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main);
 
         // Perintah untuk menampilkan activity linear layout
 //      setContentView(R.layout.activity_linear);
@@ -59,24 +53,8 @@ public class MainActivity extends AppCompatActivity {
 //      setContentView(R.layout.activity_scroll_v_iew_horizontal);
 
         //Perintah untuk menampilkan activity Menu Dashboard layout
-      setContentView(R.layout.activity_menu_dashboard);
+//      setContentView(R.layout.activity_menu_dashboard);
 
-        //Linear Layout
-//        Pada = findViewById(R.id.pada);
-//        Subject = findViewById(R.id.subject);
-//        Pesan = findViewById(R.id.pesan);
-//        Submit = findViewById(R.id.submit);
-        // Get reference of widgets from XML layout
-
-//        dateTimeDisplay = findViewById(R.id.text_date_display);
-//
-//        calendar = Calendar.getInstance();
-//        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("EE, MMM d, yyyy");
-//        SimpleDateFormat simpleDateFormat2 = new SimpleDateFormat("h:mm a");
-//        date = simpleDateFormat.format(calendar.getTime());
-//        String date2 = simpleDateFormat2.format(calendar.getTime());
-//        dateTimeDisplay.setText(date);
-//        dateTimeDisplay.setText(date2);
     }
 
 }

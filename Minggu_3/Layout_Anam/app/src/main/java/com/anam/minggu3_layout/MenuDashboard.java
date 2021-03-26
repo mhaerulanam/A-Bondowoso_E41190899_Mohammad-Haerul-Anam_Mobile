@@ -31,11 +31,11 @@ public class MenuDashboard extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //kode untuk pindah ke aktivity linier
-                linear = new Intent(MenuDashboard.this, LinearActivity.class);
-                startActivity(linear);
+                linear = new Intent(MenuDashboard.this,LinearActivity.class);
+                MenuDashboard.this.startActivity(linear);
                 //saat pindah, activity yg sekarang langsung ditutup
                 //agar saat menekan tombol kembali tidak bolak-balik
-                finish();
+                MenuDashboard.this.finish();
             }
         });
 
@@ -44,7 +44,7 @@ public class MenuDashboard extends AppCompatActivity {
             public void onClick(View v) {
                 relative = new Intent(MenuDashboard.this, RelativeActivity.class);
                 startActivity(relative);
-                finish();
+//                finish();
             }
         });
 
