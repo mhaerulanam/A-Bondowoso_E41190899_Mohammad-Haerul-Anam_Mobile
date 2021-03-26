@@ -8,8 +8,12 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="colorAccent">#D81B60</color>
+    <color name="colorAccent2">#FF80AB</color>
+    <color name="colorPrimaryDark">#C51162</color>
+    <color name="colorPrimary1">#F50057</color>
     <color name="colorPrimary">#008577</color>
     <color name="putih">#ffffff</color>
     <color name="hitam">#000000</color>
     <color name="green">#044E35</color>
+    <color name="abuabu">#075E5B</color>
 </resources>

@@ -25,6 +25,34 @@
     <string name="submit">Submit</string>
     <string name="todo">TODO</string>
     <string name="nana">nana</string>
+    <string name="button">Text Button</string>
+    <string name="Scroll">ScrollView</string>
+    <string name="pembukaan">welcome to Tutlane</string>
+    <string name="btn2">Button Two</string>
+    <string name="btn3">Button Three</string>
+    <string name="btn4">Button Four</string>
+    <string name="btn5">Button Five</string>
+    <string name="btn6">Button Six</string>
+    <string name="btn7">Button Seven</string>
+    <string name="btn8">Button Eight</string>
+    <string name="btn9">Button Nine</string>
+    <string name="btn">Button One</string>
+    <string name="satu">1</string>
+    <string name="dua">2</string>
+    <string name="tiga">3</string>
+    <string name="empat">4</string>
+    <string name="linear">Linear Layout</string>
+    <string name="lima">5</string>
+    <string name="enam">6</string>
+    <string name="tujuh">7</string>
+    <string name="delapan">8</string>
+    <string name="constrain">Constraint Layout</string>
+    <string name="relative">Relative Layout</string>
+    <string name="frame">Frame Layout</string>
+    <string name="table">Table Layout</string>
+    <string name="materialDesign">Material Design Layout</string>
+    <string name="scrollView">Scroll View</string>
+    <string name="scrollViewHorizontal">Scroll View Horizontal</string>
 
     <string-array name="dates">
         <item>Wed, June 27, 2012 </item>

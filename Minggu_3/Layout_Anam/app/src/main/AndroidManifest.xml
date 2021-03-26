@@ -9,6 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Minggu3_Layout">
+        <activity android:name=".MenuDashboard"></activity>
+        <activity android:name=".LinearActivity"></activity>
+        <activity android:name=".RelativeActivity"></activity>
+        <activity android:name=".ScrollVIewHorizontal" />
+        <activity android:name=".ScrollView" />
+        <activity android:name=".MaterialDesign" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

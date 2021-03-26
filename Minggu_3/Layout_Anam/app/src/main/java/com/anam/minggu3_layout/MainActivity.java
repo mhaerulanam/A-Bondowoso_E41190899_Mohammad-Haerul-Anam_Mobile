@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
 //      setContentView(R.layout.activity_linear);
 
         //Perintah untuk menampilkan activity Relative layout
-        setContentView(R.layout.activity_relative);
+//        setContentView(R.layout.activity_relative);
 
         //Perintah untuk menampilkan activity constraint layout
 //      setContentView(R.layout.activity_constraint);
@@ -48,6 +48,18 @@ public class MainActivity extends AppCompatActivity {
 
         //Perintah untuk menampilkan activity Table layout
 //      setContentView(R.layout.activity_table);
+
+        //Perintah untuk menampilkan activity Material Design layout
+//      setContentView(R.layout.activity_material_design);
+
+        //Perintah untuk menampilkan activity Scroll View layout
+//      setContentView(R.layout.activity_scroll_view);
+
+        //Perintah untuk menampilkan activity Scroll View Horizontal layout
+//      setContentView(R.layout.activity_scroll_v_iew_horizontal);
+
+        //Perintah untuk menampilkan activity Menu Dashboard layout
+      setContentView(R.layout.activity_menu_dashboard);
 
         //Linear Layout
 //        Pada = findViewById(R.id.pada);
