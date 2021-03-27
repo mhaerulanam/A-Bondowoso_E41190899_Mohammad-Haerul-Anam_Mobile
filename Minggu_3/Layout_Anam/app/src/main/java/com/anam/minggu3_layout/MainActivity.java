@@ -53,8 +53,7 @@ public class MainActivity extends AppCompatActivity {
 //      setContentView(R.layout.activity_scroll_v_iew_horizontal);
 
         //Perintah untuk menampilkan activity Menu Dashboard layout
-//      setContentView(R.layout.activity_menu_dashboard);
-
+      setContentView(R.layout.activity_menu_dashboard);
     }
 
 }

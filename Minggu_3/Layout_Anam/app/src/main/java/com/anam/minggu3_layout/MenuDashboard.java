@@ -35,7 +35,7 @@ public class MenuDashboard extends AppCompatActivity {
                 MenuDashboard.this.startActivity(linear);
                 //saat pindah, activity yg sekarang langsung ditutup
                 //agar saat menekan tombol kembali tidak bolak-balik
-                MenuDashboard.this.finish();
+//                MenuDashboard.this.finish();
             }
         });
 
@@ -53,7 +53,7 @@ public class MenuDashboard extends AppCompatActivity {
             public void onClick(View v) {
                 constrain = new Intent(MenuDashboard.this, ConstraintActivity.class);
                 startActivity(constrain);
-                finish();
+//                finish();
             }
         });
 
@@ -62,7 +62,7 @@ public class MenuDashboard extends AppCompatActivity {
             public void onClick(View v) {
                 frame = new Intent(MenuDashboard.this, FrameActivity.class);
                 startActivity(frame);
-                finish();
+//                finish();
             }
         });
 
@@ -71,7 +71,7 @@ public class MenuDashboard extends AppCompatActivity {
             public void onClick(View v) {
                 table = new Intent(MenuDashboard.this, TableActivity.class);
                 startActivity(table);
-                finish();
+//                finish();
             }
         });
 
@@ -80,7 +80,7 @@ public class MenuDashboard extends AppCompatActivity {
             public void onClick(View v) {
                 materialDesign = new Intent(MenuDashboard.this, MaterialDesign.class);
                 startActivity(materialDesign);
-                finish();
+//                finish();
             }
         });
 
@@ -89,7 +89,7 @@ public class MenuDashboard extends AppCompatActivity {
             public void onClick(View v) {
                 scrollView = new Intent(MenuDashboard.this, ScrollView.class);
                 startActivity(scrollView);
-                finish();
+//                finish();
             }
         });
 
@@ -98,7 +98,7 @@ public class MenuDashboard extends AppCompatActivity {
             public void onClick(View v) {
                 scrollViewHorizontal = new Intent(MenuDashboard.this, ScrollVIewHorizontal.class);
                 startActivity(scrollViewHorizontal);
-                finish();
+//                finish();
             }
         });
 
