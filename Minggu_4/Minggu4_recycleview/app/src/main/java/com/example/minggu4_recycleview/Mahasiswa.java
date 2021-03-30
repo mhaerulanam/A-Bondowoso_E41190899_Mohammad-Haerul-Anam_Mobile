@@ -3,14 +3,13 @@ package com.example.minggu4_recycleview;
 public class Mahasiswa {
 
     private String nama;
-    private String npm;
+    private  String npm;
     private String nohp;
 
-    public Mahasiswa() {
+    public Mahasiswa(String nama, String npm, String nohp) {
         this.nama = nama;
         this.npm = npm;
         this.nohp = nohp;
-
     }
 
     public String getNama() {

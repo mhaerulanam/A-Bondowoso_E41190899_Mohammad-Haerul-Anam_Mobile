@@ -10,45 +10,42 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 
-public class MahasiswaAdapter extends RecyclerView.Adapter {
+public class MahasiswaAdapter extends RecyclerView.Adapter<MahasiswaAdapter.MahasiswaViewHolder> {
+
     private ArrayList<Mahasiswa> dataList;
 
     public MahasiswaAdapter(ArrayList<Mahasiswa> dataList) {
         this.dataList = dataList;
     }
 
-
-    public MahasiswaViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+    @NonNull
+    @Override
+    public MahasiswaAdapter.MahasiswaViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         LayoutInflater layoutInflater = LayoutInflater.from(parent.getContext());
         View view = layoutInflater.inflate(R.layout.list_item, parent, false);
         return new MahasiswaViewHolder(view);
     }
 
     @Override
-    public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, int position) {
-
-    }
-
-    public void onBindViewHolder(MahasiswaViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull MahasiswaAdapter.MahasiswaViewHolder holder, int position) {
         holder.txtNama.setText(dataList.get(position).getNama());
         holder.txtNpm.setText(dataList.get(position).getNpm());
         holder.txtNohp.setText(dataList.get(position).getNohp());
-
     }
 
+    @Override
     public int getItemCount() {
-        return (dataList != null) ? dataList.size() : 0;
+        return (dataList != null) ? dataList.size() :0;
     }
 
-    private class MahasiswaViewHolder {
+    public class MahasiswaViewHolder extends RecyclerView.ViewHolder{
         private TextView txtNama, txtNpm, txtNohp;
 
-        public MahasiswaViewHolder(View itemView) {
+        public MahasiswaViewHolder(@NonNull View itemView) {
             super(itemView);
-            txtNama = (TextView) itemView.findViewById(R.id.txt_nama_mahasiswa);
-            txtNpm = (TextView) itemView.findViewById(R.id.txt_npm_mahasiswa);
-            txtNohp = (TextView) itemView.findViewById(R.id.txt_nohp_mahasiswa);
-
+            txtNama = itemView.findViewById(R.id.txt_nama_mahasiswa);
+            txtNpm = itemView.findViewById(R.id.txt_npm_mahasiswa);
+            txtNohp = itemView.findViewById(R.id.txt_nohp_mahasiswa);
         }
     }
 }

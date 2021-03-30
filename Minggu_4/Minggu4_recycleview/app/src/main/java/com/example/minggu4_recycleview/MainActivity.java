@@ -30,10 +30,13 @@ public class MainActivity extends AppCompatActivity {
 
     private void addData() {
         mahasiswaArrayList = new ArrayList<>();
-        mahasiswaArrayList.add(new Mahasiswa("Mohammad Haerul Anam, "235102763", "123456789"));
-        mahasiswaArrayList.add(new Mahasiswa("Mohammad , "8908977", "123456789"));
-        mahasiswaArrayList.add(new Mahasiswa("Haerul , "1283454", "123456789"));
-        mahasiswaArrayList.add(new Mahasiswa("Anam, "49336494", "123456789"));
-
+        mahasiswaArrayList.add(new Mahasiswa("Mohammad Haerul Anam", "235102763", "123456789"));
+        mahasiswaArrayList.add(new Mahasiswa("Mohammad ", "8908977", "123456789"));
+        mahasiswaArrayList.add(new Mahasiswa("Haerul" , "1283454", "123456789"));
+        mahasiswaArrayList.add(new Mahasiswa("Anam", "49336494", "123456789"));
+        mahasiswaArrayList.add(new Mahasiswa("Dalifah", "1548132", "123456789"));
+        mahasiswaArrayList.add(new Mahasiswa("Aisyah", "45188488", "123456789"));
+        mahasiswaArrayList.add(new Mahasiswa("Ira", "35548117", "123456789"));
+        mahasiswaArrayList.add(new Mahasiswa("Caca", "184526456", "123456789"));
     }
 }
