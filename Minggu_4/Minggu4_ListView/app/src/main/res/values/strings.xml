@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Minggu4_recycleview</string>
+    <string name="app_name">Minggu4_ListView</string>
     <string-array name="countries_arry">
     <item>Afganistan</item>
     <item>Albania</item>
