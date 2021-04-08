@@ -1,11 +1,12 @@
 <resources>
-    <string name="app_name">FragmentExample</string>
-    <string name="Frgm1">First Fragment</string>
-    <string name="Frgm2">Second Fragment</string>
+    <string name="app_name">Minggu5_Fragment</string>
+    <string name="fragment_pertama">Fragment Pertama</string>
+    <string name="fragment_kedua">Fragment Kedua</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="pesan1">This is First Fragment</string>
-    <string name="btn1">First Fragment</string>
-    <string name="pesan2">This is Second Fragment</string>
-    <string name="btn2">"Second Fragment "</string>
+    <string name="frgm_1">Fragment Pertama</string>
+    <string name="show_message">Fragment Pertama</string>
+    <string name="frgm_2">Fragment Kedua</string>
+    <string name="show_message2">Fragment Kedua</string>
+    <string name="ScreenFragment">Screen Fragment</string>
 </resources>

@@ -1,4 +1,4 @@
-package com.example.fragmentexample;
+package com.example.minggu5_fragment;
 
 import org.junit.Test;
 

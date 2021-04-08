@@ -1,4 +1,4 @@
-package com.example.fragmentexample;
+package com.example.minggu5_fragment;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.example.fragmentexample", appContext.getPackageName());
+        assertEquals("com.example.minggu5_fragment", appContext.getPackageName());
     }
 }

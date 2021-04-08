@@ -7,7 +7,7 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "com.example.fragmentexample"
+        applicationId "com.example.minggu5_fragment"
         minSdkVersion 22
         targetSdkVersion 29
         versionCode 1
