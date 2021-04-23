@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Minggu7_ManjementFile</string>
+    <string name="add_text">Tambah Teks Data</string>
+    <string name="click_to_view">Klik untuk melihat hasil</string>
+    <string name="save_as_public">Simpan Public</string>
+    <string name="save_as_private">Simpan Private</string>
+    <string name="show_public_data">Tampil Data Public </string>
+    <string name="show_private_data">Tampil Data Private</string>
+    <string name="back">Kembali</string>
+</resources>
