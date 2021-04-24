@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
     public void savePublic(View view) {
         //Permission to access external storage
         ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.READ_EXTERNAL_STORAGE}, STORAGE_PERMISSION_CODE);
+        ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE}, STORAGE_PERMISSION_CODE);
         String info = editText.getText().toString();
         File folder = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS);// Nama Folder
         File myFile = new File(folder, "myData01.txt");// Nama file
