@@ -40,7 +40,6 @@ public class MainActivity extends AppCompatActivity {
         File myFile = new File(folder, "myData01.txt");// Nama file
         writeData(myFile, info);
         editText.setText("");
-
     }
 
     public void savePrivate(View view) {

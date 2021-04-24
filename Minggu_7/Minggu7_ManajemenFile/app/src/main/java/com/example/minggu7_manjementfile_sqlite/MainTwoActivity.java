@@ -32,10 +32,10 @@ public class MainTwoActivity extends AppCompatActivity {
         String tampil = text;
         if (text != null) {
             TextTampil.setText(text);
+            Toast.makeText(this, "Data Public " + "'"+ tampil +"'", Toast.LENGTH_SHORT).show();
         } else {
             TextTampil.setText("No Data");
         }
-        Toast.makeText(this,  tampil, Toast.LENGTH_SHORT).show();
     }
 
     public void getPrivate(View view) {
@@ -45,10 +45,10 @@ public class MainTwoActivity extends AppCompatActivity {
         String tampil = text;
         if (text != null) {
             TextTampil.setText(text);
+            Toast.makeText(this, "Data Private " + "'"+ tampil +"'", Toast.LENGTH_SHORT).show();
         } else {
             TextTampil.setText("No Data");
         }
-        Toast.makeText(this,  tampil, Toast.LENGTH_SHORT).show();
     }
 
     private String getdata(File myfile) {
