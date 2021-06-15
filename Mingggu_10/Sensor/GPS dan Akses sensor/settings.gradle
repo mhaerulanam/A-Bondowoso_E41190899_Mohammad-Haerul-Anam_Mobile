@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "Minggu10_GPS_AkasesSensor"
