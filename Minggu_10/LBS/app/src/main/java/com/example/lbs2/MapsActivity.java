@@ -24,8 +24,8 @@ import com.google.android.gms.maps.model.MarkerOptions;
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
 
     private GoogleMap mMap;
-    private static final int REQUEST_COURSE_ACCESS = 123;
-    //    final private int REQUES_COURSE_ACCESS = 123;
+//    private static final int REQUEST_COURSE_ACCESS = 123;
+    final private int REQUEST_COURSE_ACCESS = 123;
     boolean permissionGranted = false;
     LocationManager lm;
     LocationListener locationListener;
@@ -45,29 +45,29 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mMap = googleMap;
 
         // Add a marker in Cangkring and move the camera -7.80223695001396, 113.96673282049845
-        LatLng BWS = new LatLng(-7.80223695001396, 113.96673282049845);
-        mMap.addMarker(new MarkerOptions().position(BWS).title("Prajekan, Bondowoso"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(BWS));
+//        LatLng BWS = new LatLng(-7.80223695001396, 113.96673282049845);
+//        mMap.addMarker(new MarkerOptions().position(BWS).title("Prajekan, Bondowoso"));
+//        mMap.moveCamera(CameraUpdateFactory.newLatLng(BWS));
 
-//        lm = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
-//        locationListener = new MyLocationListener();
-//        if (ActivityCompat.checkSelfPermission(this,
-//                android.Manifest.permission.ACCESS_FINE_LOCATION)
-//                != PackageManager.PERMISSION_GRANTED
-//                && ActivityCompat.checkSelfPermission(this,
-//                android.Manifest.permission.ACCESS_COARSE_LOCATION)
-//                != PackageManager.PERMISSION_GRANTED) {
-//            ActivityCompat.requestPermissions(this, new
-//                            String[]{android.Manifest.permission.ACCESS_COARSE_LOCATION},
-//                    REQUEST_COURSE_ACCESS);
-//            return;
-//        } else {
-//            permissionGranted = true;
-//        }
-//        if (permissionGranted) {
-//            lm.requestLocationUpdates(LocationManager.GPS_PROVIDER,
-//                    0, 0, locationListener);
-//        }
+        lm = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
+        locationListener = new MyLocationListener();
+        if (ActivityCompat.checkSelfPermission(this,
+                android.Manifest.permission.ACCESS_FINE_LOCATION)
+                != PackageManager.PERMISSION_GRANTED
+                && ActivityCompat.checkSelfPermission(this,
+                android.Manifest.permission.ACCESS_COARSE_LOCATION)
+                != PackageManager.PERMISSION_GRANTED) {
+            ActivityCompat.requestPermissions(this, new
+                            String[]{android.Manifest.permission.ACCESS_COARSE_LOCATION},
+                    REQUEST_COURSE_ACCESS);
+            return;
+        } else {
+            permissionGranted = true;
+        }
+        if (permissionGranted) {
+            lm.requestLocationUpdates(LocationManager.GPS_PROVIDER,
+                    0, 0, locationListener);
+        }
     }
 
     @Override
@@ -126,23 +126,11 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         }
     }
 
-    public void onLocationChanged(Location loc) {
-        if(loc != null) {
-            Toast.makeText(getBaseContext(), "Location changed : Lat: \"" +
-                    "+ loc.getLatitude() + \n" + " \" Lng: \n"
-                    + loc.getLongitude(), Toast.LENGTH_SHORT).show();
-            LatLng p = new LatLng((int) (loc.getLatitude()),
-                    (int) (loc.getLongitude()));
-            mMap.moveCamera(CameraUpdateFactory.newLatLng(p));
-            mMap.animateCamera(CameraUpdateFactory.zoomTo(7));
-        }
-    }
-
     private class MyLocationListener implements LocationListener {
         public void onLocationChanged(Location loc) {
             if (loc != null) {
                 Toast.makeText(getBaseContext(), "Location changed : Lat: \"" +
-                        "+ loc.getLatitude() + \n" + " \" Lng: \n"
+                        + loc.getLatitude() + "\n" + " \" Lng: \n"
                         + loc.getLongitude(), Toast.LENGTH_SHORT).show();
                 LatLng p = new LatLng((int) (loc.getLatitude()),
                         (int) (loc.getLongitude()));
